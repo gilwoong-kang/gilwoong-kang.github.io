@@ -9,7 +9,7 @@ name: 강군's Devlog
 description: 개발 공부 이야기 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/gilwoong-kang/gilwoong-kang.gihub.io/master/blog-image.jpeg
+avatar: https://github.com/gilwoong-kang/gilwoong-kang.github.io/raw/master/blog-image.jpeg
 
 #
 # Flags below are optional
@@ -18,10 +18,10 @@ avatar: https://raw.githubusercontent.com/gilwoong-kang/gilwoong-kang.gihub.io/m
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: smostr@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: gilwoong-kang/gilwoong-kang.github.io
   instagram:
   linkedin:
   pinterest:
