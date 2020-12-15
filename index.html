@@ -2,17 +2,22 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+{% include hero-section.html %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% include about-section.html %}
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+{% include skills-section.html %}
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+{% include experience-section.html %}
+
+{% include education-section.html %}
+
+{% include services-section.html %}
+
+{% include portfolio-section.html %}
+
+{% include testimonial-section.html %}
+
+{% include client-section.html %}
+
+{% include blog-section.html %}
