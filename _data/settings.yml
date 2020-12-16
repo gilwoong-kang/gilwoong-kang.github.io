@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 
-title: GilWoong
+title: Woong
 logo: 
-author: GilWoong-Kang
+author: Gil Woong-Kang
 description: gilwoong's blog
 email: smostr@gmail.com
 phone: 
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> GilWoong Kang <br> Security Engineer & <br> Developer
+  hero-title: Hi! I’m <br> Gil Woong Kang <br> Security & Cloud <br> Engineer
 
 social:
 # - {icon: "ti-facebook", link: "#"}
