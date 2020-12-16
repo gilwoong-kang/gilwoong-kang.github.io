@@ -1,14 +1,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: GilWoong
 logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+author: GilWoong-Kang
+description: gilwoong's blog
+email: smostr@gmail.com
+phone: 
+address: Seongnam-si, Gyeonggi-do, Republic of Korea
+copyright: Copyright &copy; 2020 Designed by GilWoong-kang, [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
 - {name: About, link: '/about'}
@@ -38,13 +38,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> GilWoong Kang <br> Security Engineer & <br> Developer
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+# - {icon: "ti-facebook", link: "#"}
+# - {icon: "ti-instagram", link: "#"}
+# - {icon: "ti-dribbble", link: "#"}
+# - {icon: "ti-twitter", link: "#"}
 
 
 #-------------------------------
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  보안 & 클라우드 보안 전문가를 꿈꾸며 공부와 업무를 수행 중입니다. 
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -95,10 +95,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Security, color: '#fdb157', value: '90%'}
+- {name: Cloud, color: '#9473e6', value: '80%'}
+- {name: Develop - Backend, color: '#bdecf6', value: '60%'}
+- {name: Web App, color: '#ffbcaa', value: '60%'}
 
 
 #-------------------------------
@@ -106,9 +106,9 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: Bachelor of CS, icon: 'icon-1.png', date: 'Mar 2015 - Feb 2021', organization: 'KOOKMIN UNIV'}
+- {name: Cloud & Server, icon: 'icon-2.png', date: 'Dec 2019 - Feb 2020', organization: 'FLYHIGH'}
+- {name: Cloud, icon: 'icon-3.png', date: 'Jan 2020 - Jun 2020', organization: 'KOOKMIN UNIV'}
 
 
 #-------------------------------
@@ -116,10 +116,11 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Cloud Security Expert, date: 'Present', organization: 'SK infosec'}
+- {name: Bachelor of CS, date: '2021', organization: 'Kookmin Univ'}
+- {name: Cloud Certificate, date: '2020', organization: 'AWS'}
+- {name: High School, date: '2015', organization: 'Seongil School'}
+# - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
 
 #-------------------------------
