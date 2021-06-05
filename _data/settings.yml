@@ -11,10 +11,10 @@ address: Seongnam-si, Gyeonggi-do, Republic of Korea
 copyright: Copyright &copy; 2020 Designed by GilWoong-kang, [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+# - {name: About, link: '/about'}
+# - {name: Blog, link: '/blog'}
+# - {name: Portfolio, link: '/portfolio'}
+# - {name: Contact, link: '/contact'}
 
 
 #-------------------------------
@@ -41,10 +41,10 @@ hero:
   hero-title: Hi! I’m <br> Gil Woong Kang <br> Security & Cloud <br> Engineer
 
 social:
-# - {icon: "ti-facebook", link: "#"}
-# - {icon: "ti-instagram", link: "#"}
-# - {icon: "ti-dribbble", link: "#"}
-# - {icon: "ti-twitter", link: "#"}
+- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-dribbble", link: "#"}
+- {icon: "ti-twitter", link: "#"}
 
 
 #-------------------------------
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  보안 & 클라우드 보안 전문가를 꿈꾸며 공부와 업무를 수행 중입니다. 
+  클라우드 보안 전문가를 꿈꾸며 공부와 업무를 수행 중입니다. 
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -107,7 +107,7 @@ skills:
 experience-title: Experience
 experience:
 - {name: Bachelor of CS, icon: 'icon-1.png', date: 'Mar 2015 - Feb 2021', organization: 'KOOKMIN UNIV'}
-- {name: Cloud & Server, icon: 'icon-2.png', date: 'Dec 2019 - Feb 2020', organization: 'FLYHIGH'}
+- {name: Cloud / Server, icon: 'icon-2.png', date: 'Dec 2019 - Feb 2020', organization: 'FLYHIGH'}
 - {name: Cloud, icon: 'icon-3.png', date: 'Jan 2020 - Jun 2020', organization: 'KOOKMIN UNIV'}
 
 
@@ -116,7 +116,7 @@ experience:
 
 education-title: Education
 education:
-- {name: Cloud Security Expert, date: 'Present', organization: 'SK infosec'}
+- {name: Cloud Security Expert Education, date: 'Present', organization: 'SK infosec'}
 - {name: Bachelor of CS, date: '2021', organization: 'Kookmin Univ'}
 - {name: Cloud Certificate, date: '2020', organization: 'AWS'}
 - {name: High School, date: '2015', organization: 'Seongil School'}
@@ -129,21 +129,21 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
+    name: IT Security,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Network Security, System Security, Data',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
+    name: Cloud,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'AWS Cloud, MS Azure, GCP. ',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: Cloud Security,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Cloud security is the protection of data stored online via cloud computing platforms from theft, leakage, and deletion. Methods of providing cloud security include firewalls, penetration testing, obfuscation, tokenization, virtual private networks (VPN), and avoiding public internet connections. Cloud security is a form of cybersecurity.',
     active: # Add true to select section
   }
 
@@ -239,21 +239,21 @@ portfolio-items:
 #-------------------------------
 # Testimonials Section
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+# testimonial-items:
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation : "CEO, Funder"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
 #-------------------------------
@@ -294,4 +294,4 @@ testimonial-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: smostr@email.com
