@@ -11,7 +11,7 @@ address: Seongnam-si, Gyeonggi-do, Republic of Korea
 copyright: Copyright &copy; 2020 Designed by GilWoong-kang, [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: About, link: '/about'}
+# - {name: About, link: '/about'}
 # - {name: Blog, link: '/blog'}
 # - {name: Portfolio, link: '/portfolio'}
 # - {name: Contact, link: '/contact'}
@@ -57,8 +57,8 @@ blurb:
   2년간의 저의 개발 행적과 성과, 결과물들을 공유하오니 많은 개발자분들이 자신의 개발에 인사이트를 얻으셨으면 좋겠습니다.
   Let`s See.
 
-blurb-btn-link: '/about'
-blurb-btn-name: know more
+# blurb-btn-link: '/about'
+# blurb-btn-name: know more
 
 
 # About Page
