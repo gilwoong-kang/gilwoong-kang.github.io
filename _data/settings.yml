@@ -11,10 +11,10 @@ address: Seongnam-si, Gyeonggi-do, Republic of Korea
 copyright: Copyright &copy; 2020 Designed by GilWoong-kang, [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+# - {name: About, link: '/about'}
+# - {name: Blog, link: '/blog'}
+# - {name: Portfolio, link: '/portfolio'}
+# - {name: Contact, link: '/contact'}
 
 
 #-------------------------------
@@ -52,10 +52,10 @@ social:
 
 # About Section
 blurb:
-  안녕하세요! Java/Spring Backend Developer OOO입니다. 해당 페이지는 저를 소개하는 페이지입니다. 
+  안녕하세요! 차세대 IT인을 꿈꾸는 강길웅입니다. 해당 페이지는 저를 소개하는 페이지입니다. 
   저에 대해 궁금하시다면 아래의 컨텐츠들을 둘러봐주세요. 
-  2년간의 저의 개발 행적과 성과, 결과물들을 공유하오니 많은 개발자분들이 자신의 개발에 인사이트를 얻으셨으면 좋겠습니다.
-  Let`s See.
+  저의 개발 행적과 성과, 결과물들을 공유하오니 천천히 둘러봐 주시면 감사하겠습니다. 
+  
 
 # blurb-btn-link: '/about'
 # blurb-btn-name: know more
@@ -98,10 +98,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Security, color: '#fdb157', value: '90%'}
-- {name: Cloud, color: '#9473e6', value: '80%'}
-- {name: Develop - Backend, color: '#bdecf6', value: '60%'}
-- {name: Web App, color: '#ffbcaa', value: '60%'}
+- {name: Security, color: '#fdb157', value: '70%'}
+- {name: Cloud, color: '#9473e6', value: '70%'}
+- {name: Develop - Backend, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
@@ -129,24 +129,24 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Services, Project
 services:
 - {
-    name: Server Enginner,
+    name: BankBee,
     icon: ti-palette,
-    description: 'Network Security, System Security, Data',
+    description: '베트남 시장 대상 금융 어플리케이션 서비스입니다. 본인 계좌를 하나의 어플리케이션에서 보고 조회, 이체 할 수 있는 서비스 입니다. 해당 서비스에서 Cloud, Server Engineer를 담당했습니다.',
     active: # Add true to select section
   }
 - {
-    name: Cloud / Server Engineer,
+    name: Moayo,
     icon: ti-vector,
-    description: 'AWS Cloud, MS Azure, GCP. ',
+    description: '인스타그램에서 원하는 게시글들을 검색할 수 있도록 한 서비스 입니다. 다중태그 기반으로 태그의 유사도가 높은 게시글들만 찾아서 결과로 보여줍니다. 해당 서비스에서 팀장, Cloud, Server Engineer를 담당했습니다. ',
     active: true # Add true to select section
   }
 - {
-    name: Cloud Infra,
+    name: 클라우드기반 헬스케어시스템 설계,
     icon: ti-panel,
-    description: 'Cloud security is the protection of data stored online via cloud computing platforms from theft, leakage, and deletion. Methods of providing cloud security include firewalls, penetration testing, obfuscation, tokenization, virtual private networks (VPN), and avoiding public internet connections. Cloud security is a form of cybersecurity.',
+    description: '고객사의 헬스케어 시스템을 클라우드로 이전하고자 새로운 설계를 했던 프로젝트 입니다. 보안적으로 안전하고자 ISMS-P, CSAP 등 인증을 이수할 수 있도록 설계했습니다. 해당 프로젝트에서 팀장, Cloud 설계, Server Engineer를 담당했습니다.',
     active: # Add true to select section
   }
 
@@ -158,19 +158,19 @@ services:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://github.com/gilwoong-kang"
     
   - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+    url: "https://github.com/kookmin-sw/capstone-2020-23"
     
   - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+    url: "https://www.notion.so/611d22f4fb6447e8b3b0040c3abc5eff"
     
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+  # - image : "assets/images/portfolio/item-4.png"
+  #   url: "#"
     
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+  # - image : "assets/images/portfolio/item-5.png"
+  #   url: "#"
 
 
 # Portfolio Page
